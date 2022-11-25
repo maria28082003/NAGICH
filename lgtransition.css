@@ -1,0 +1,41 @@
+
+
+
+body{
+    margin: 0;  
+}
+
+.intro{
+
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.video{
+   
+    position: relative;
+    padding-bottom: 56.25%;
+z-index: 1;
+}
+
+.video-media{
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: scroll;
+    z-index : 0 ;
+}
+
+.intro_content{
+    position: absolute;
+    top: 120px;
+    left: 1190px;
+    z-index: 2;
+    font-family: 'inter' , cursive;
+    font-size: 23px;
+    font-weight: 70;
+    line-height: 100px;
+    color: #ffffff;
+}
